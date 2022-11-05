@@ -22,16 +22,23 @@ a {
   padding: 18px;
 }
 
+p {
+  line-height: 1.6;
+  padding: 5px;
+}
+
 .container {
   display: flex;
+  position: relative;
 }
 
 #navbar {
   display: flex;
   flex-direction: column;
-  width: 45%;
-  height: 100vh;
-  border-right: 3px solid #4d4e53;
+  width: 350px;
+  height: 100vm;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
 }
 
 #navbar > header {
@@ -44,6 +51,27 @@ a {
 }
 
 #main-doc {
-  margin: 20px;
+  /* margin-left: 120px; */
   padding: 24px;
+  width: 100%;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+article {
+  padding: 24px;
+}
+
+article ul {
+  padding: 16px;
+  margin-left: 50px;
 }
